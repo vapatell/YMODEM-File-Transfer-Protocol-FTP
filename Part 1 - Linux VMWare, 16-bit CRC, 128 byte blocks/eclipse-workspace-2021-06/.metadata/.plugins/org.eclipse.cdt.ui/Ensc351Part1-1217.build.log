@@ -1,0 +1,7 @@
+10:13:04 **** Clean-only build of configuration Debug for project Ensc351Part1-1217 ****
+make clean 
+rm -rf  ./src/Ensc351Part1.o ./src/PeerY.o ./src/SenderY.o ./src/myIO.o  ./src/Ensc351Part1.d ./src/PeerY.d ./src/SenderY.d ./src/myIO.d  Ensc351Part1-1217
+ 
+
+10:13:04 Build Finished. 0 errors, 0 warnings. (took 543ms)
+

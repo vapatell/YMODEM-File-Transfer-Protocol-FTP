@@ -1,0 +1,149 @@
+~"+handle SIGPIPE nostop\n"
+~"+skip -rfu ^std::\n"
+~"Function(s) ^std:: will be skipped when stepping.\n"
+14^done
+(gdb) 
+15^done
+(gdb) 
+16^done
+(gdb) 
+17^done
+(gdb) 
+18^done
+(gdb) 
+19^done,groups=[{id="i1",type="process",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1"}]
+(gdb) 
+20^done,value="auto"
+(gdb) 
+21^done
+(gdb) 
+~"$1 = 0xff\n"
+22^done
+(gdb) 
+23^done,value="8"
+(gdb) 
+24^done
+(gdb) 
+~"The target endianness is set automatically (currently little endian)\n"
+25^done
+(gdb) 
+26^done,bkpt={number="1",type="breakpoint",disp="del",enabled="y",addr="0x00000000000012a7",func="main()",file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="10",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+27^done
+(gdb) 
+=thread-group-started,id="i1",pid="43390"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="del",enabled="y",addr="0x00005555555552a7",func="main()",file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="10",thread-groups=["i1"],times="0",original-location="main"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fd0100",to="0x00007ffff7ff2674"}]
+28^running
+*running,thread-id="all"
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libpthread.so.0",target-name="/lib/x86_64-linux-gnu/libpthread.so.0",host-name="/lib/x86_64-linux-gnu/libpthread.so.0",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7f95ae0",to="0x00007ffff7fa54d5"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libstdc++.so.6",target-name="/lib/x86_64-linux-gnu/libstdc++.so.6",host-name="/lib/x86_64-linux-gnu/libstdc++.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7e4a160",to="0x00007ffff7f32452"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libgcc_s.so.1",target-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",host-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7d945e0",to="0x00007ffff7da5045"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7bc4630",to="0x00007ffff7d3920d"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libm.so.6",target-name="/lib/x86_64-linux-gnu/libm.so.6",host-name="/lib/x86_64-linux-gnu/libm.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7a5f3c0",to="0x00007ffff7b05f18"}]
+29^done,groups=[{id="i1",type="process",pid="43390",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1",cores=["3"]}]
+(gdb) 
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="del",enabled="y",addr="0x00005555555552a7",func="main()",file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="10",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Temporary breakpoint 1, main () at ../src/Listing1_1.cpp:10\n"
+~"10\t{\n"
+*stopped,reason="breakpoint-hit",disp="del",bkptno="1",frame={addr="0x00005555555552a7",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="10",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+=breakpoint-deleted,id="1"
+30^done,groups=[{id="i1",type="process",pid="43390",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1",cores=["3"]}]
+(gdb) 
+31^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552a7",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="10",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+32^done,depth="1"
+(gdb) 
+33^done
+(gdb) 
+34^done,groups=[{id="i1",type="process",pid="43390",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1",cores=["3"]}]
+(gdb) 
+35^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552a7",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="10",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+36^done,locals=[{name="t",value="{_M_id = {_M_thread = 0}}"}]
+(gdb) 
+37^done,name="var1",numchild="1",value="{...}",type="std::thread",thread-id="1",has_more="0"
+(gdb) 
+38^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555552c3",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="11",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+39^done,locals=[{name="t",value="{_M_id = {_M_thread = 0}}"}]
+(gdb) 
+40^done,depth="1"
+(gdb) 
+41^done,changelist=[]
+(gdb) 
+42^done
+(gdb) 
+43^done,groups=[{id="i1",type="process",pid="43390",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1",cores=["3"]}]
+(gdb) 
+44^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552c3",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="11",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+45^running
+*running,thread-id="all"
+(gdb) 
+=thread-created,id="2",group-id="i1"
+*running,thread-id="2"
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555552d6",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="12",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+46^done,depth="1"
+(gdb) 
+47^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552d6",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="12",arch="i386:x86-64"},state="stopped",core="3"},{id="2",target-id="Thread 0x7ffff7a4a700 (LWP 43403)",name="Listing1_1",frame={level="0",addr="0x00007ffff7edfbb0",func="std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)",args=[],from="/lib/x86_64-linux-gnu/libstdc++.so.6",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+48^done,groups=[{id="i1",type="process",pid="43390",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1",cores=["3"]}]
+(gdb) 
+49^done,locals=[{name="t",value="{_M_id = {_M_thread = 140737348151040}}"}]
+(gdb) 
+50^done,changelist=[]
+(gdb) 
+51^done
+(gdb) 
+52^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552d6",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="12",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+53^done,threads=[{id="2",target-id="Thread 0x7ffff7a4a700 (LWP 43403)",name="Listing1_1",frame={level="0",addr="0x00007ffff7edfbb0",func="std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)",args=[],from="/lib/x86_64-linux-gnu/libstdc++.so.6",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+54^running
+*running,thread-id="all"
+~"[Switching to thread 2 (Thread 0x7ffff7a4a700 (LWP 43403))](running)\n"
+=thread-selected,id="2"
+(gdb) 
+=thread-exited,id="2",group-id="i1"
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555552e2",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="11",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+55^done,locals=[{name="t",value="{_M_id = {_M_thread = 0}}"}]
+(gdb) 
+56^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552e2",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="11",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+57^done,depth="1"
+(gdb) 
+58^done,depth="1"
+(gdb) 
+59^done,changelist=[]
+(gdb) 
+60^done
+(gdb) 
+61^done,groups=[{id="i1",type="process",pid="43390",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1",cores=["3"]}]
+(gdb) 
+62^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552e2",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="11",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+63^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555552ee",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="14",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+64^done,locals=[{name="t",value="{_M_id = {_M_thread = 0}}"}]
+(gdb) 
+65^done,depth="1"
+(gdb) 
+66^done,changelist=[]
+(gdb) 
+67^done
+(gdb) 
+68^done,groups=[{id="i1",type="process",pid="43390",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/Debug/Listing1_1",cores=["3"]}]
+(gdb) 
+69^done,threads=[{id="1",target-id="Thread 0x7ffff7a4b740 (LWP 43390)",name="Listing1_1",frame={level="0",addr="0x00005555555552ee",func="main",args=[],file="../src/Listing1_1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Listing1_1/src/Listing1_1.cpp",line="14",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+70^exit
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"

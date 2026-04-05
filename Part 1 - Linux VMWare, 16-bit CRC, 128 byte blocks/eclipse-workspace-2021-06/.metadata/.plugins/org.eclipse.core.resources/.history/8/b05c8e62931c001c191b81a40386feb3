@@ -1,0 +1,81 @@
+~"+handle SIGPIPE nostop\n"
+~"+skip -rfu ^std::\n"
+~"Function(s) ^std:: will be skipped when stepping.\n"
+14^done
+(gdb) 
+15^done
+(gdb) 
+16^done
+(gdb) 
+17^done
+(gdb) 
+18^done
+(gdb) 
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+~"0x00405dd0 in __start ()\n"
+*stopped,frame={addr="0x00405dd0",func="__start",args=[],arch="mips:isa32r2"},thread-id="1",stopped-threads="all"
+19^connected
+(gdb) 
+20^done,value="auto"
+(gdb) 
+21^done
+(gdb) 
+~"$1 = 0xff\n"
+22^done
+(gdb) 
+23^done,value="4"
+(gdb) 
+24^done
+(gdb) 
+~"The target endianness is set automatically (currently big endian)\n"
+25^done
+(gdb) 
+26^done,bkpt={number="1",type="breakpoint",disp="del",enabled="y",addr="0x00406214",func="main()",file="../src/Ensc351Part1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/Ensc351Part1.cpp",line="28",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+27^running
+*running,thread-id="all"
+(gdb) 
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="del",enabled="y",addr="0x00406214",func="main()",file="../src/Ensc351Part1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/Ensc351Part1.cpp",line="28",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Temporary breakpoint 1, main () at ../src/Ensc351Part1.cpp:28\n"
+~"28\tint main() {\n"
+*stopped,reason="breakpoint-hit",disp="del",bkptno="1",frame={addr="0x00406214",func="main",args=[],file="../src/Ensc351Part1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/Ensc351Part1.cpp",line="28",arch="mips:isa32r2"},thread-id="1",stopped-threads="all"
+=breakpoint-deleted,id="1"
+28^done,groups=[{id="i1",type="process",pid="1",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/DebugMips/Ensc351Part1-1217"}]
+(gdb) 
+29^done,threads=[{id="1",target-id="Thread 1.14977",details="CPU#0 [running]",frame={level="0",addr="0x00406214",func="main",args=[],file="../src/Ensc351Part1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/Ensc351Part1.cpp",line="28",arch="mips:isa32r2"},state="stopped"}]
+(gdb) 
+30^done,depth="1"
+(gdb) 
+31^done
+(gdb) 
+32^done
+(gdb) 
+33^done
+(gdb) 
+34^done,threads=[{id="1",target-id="Thread 1.14977",details="CPU#0 [running]",frame={level="0",addr="0x00406214",func="main",args=[],file="../src/Ensc351Part1.cpp",fullname="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/src/Ensc351Part1.cpp",line="28",arch="mips:isa32r2"},state="stopped"}]
+(gdb) 
+35^error,msg="Can not fetch data now."
+(gdb) 
+36^done,groups=[{id="i1",type="process",pid="1",executable="/mnt/hgfs/VMsf2020/eclipse-workspace-2021-06/Ensc351Part1-1217/DebugMips/Ensc351Part1-1217"}]
+(gdb) 
+37^done,locals=[{name="oFileName",value="0x405da8 <_GLOBAL__sub_I_system_error.cc+52> \"\\217\\274\""},{name="mode",value="6005872"},{name="mediumD",value="65535"},{name="iFileNamesA",value="{<std::_Vector_base<char const*, std::allocator<char const*> >> = {_M_impl = {<std::allocator<char const*>> = {<__gnu_cxx::new_allocator<char const*>> = {<No data fields>}, <No data fields>}, <std::_Vector_base<char const*, std::allocator<char const*> >::_Vector_impl_data> = {_M_start = 0x7ffff034, _M_finish = 0x4d7aac <__libc_csu_init+188>, _M_end_of_storage = 0x4d7ad8 <__libc_csu_fini>}, <No data fields>}}, <No data fields>}"},{name="iFileNamesB",value="{<std::_Vector_base<char const*, std::allocator<char const*> >> = {_M_impl = {<std::allocator<char const*>> = {<__gnu_cxx::new_allocator<char const*>> = {<No data fields>}, <No data fields>}, <std::_Vector_base<char const*, std::allocator<char const*> >::_Vector_impl_data> = {_M_start = 0x4ee284 <__internal_atexit+104>, _M_finish = 0x5648b4, _M_end_of_storage = 0x3ae75f6}, <No data fields>}}, <No data fields>}"}]
+(gdb) 
+38^done,name="var1",numchild="1",value="0x405da8 <_GLOBAL__sub_I_system_error.cc+52> \"\\217\\274\"",type="const char *",thread-id="1",has_more="0"
+(gdb) 
+39^done,name="var2",numchild="0",value="6005872",type="mode_t",thread-id="1",has_more="0"
+(gdb) 
+40^done,name="var3",numchild="0",value="65535",type="int",thread-id="1",has_more="0"
+(gdb) 
+41^done,name="var4",numchild="1",value="{...}",type="std::vector<char const*, std::allocator<char const*> >",thread-id="1",has_more="0"
+(gdb) 
+42^done,name="var5",numchild="1",value="{...}",type="std::vector<char const*, std::allocator<char const*> >",thread-id="1",has_more="0"
+(gdb) 
+43^running
+*running,thread-id="all"
+(gdb) 
+~"[Inferior 1 (process 1) exited normally]\n"
+=thread-group-exited,id="i1",exit-code="0"
+*stopped,reason="exited-normally"
+44^exit

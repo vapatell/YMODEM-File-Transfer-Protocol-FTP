@@ -1,0 +1,14 @@
+LaunchTargetManager/configs/Ensc351Part1-1217=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Listing1_1=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Listing1_1,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ensc351Part1-1217-DebugMips,org.eclipse.launchbar.core.descriptorType.default\:Ensc351Part1-1217
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ensc351Part1-1217-DebugMips/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ensc351Part1-1217-DebugMips/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ensc351Part1-DebugMips/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ensc351Part1-DebugMips/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:Ensc351Part1-1217/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Ensc351Part1-1217/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Listing1_1/activeLaunchMode=debug
