@@ -1,7 +1,4 @@
 //============================================================================
-// Name        : Ensc351Part1.cpp
-// Version     : September 9th
-// Copyright   : Copyright 2021, Craig Scratchley
 // Description : Starting point for Part 1 of Multipart Project
 //============================================================================
 

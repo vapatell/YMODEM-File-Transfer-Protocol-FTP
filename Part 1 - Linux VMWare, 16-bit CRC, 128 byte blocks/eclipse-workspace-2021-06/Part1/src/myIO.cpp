@@ -1,7 +1,5 @@
-/* Wrapper functions for ENSC-351, Simon Fraser University, By
- *  - Craig Scratchley
- * 
- * These functions will be re-implemented later in the course.
+/* Wrapper functions
+ * These functions will be re-implemented later.
  */
 
 #include <unistd.h>			// for read/write/close

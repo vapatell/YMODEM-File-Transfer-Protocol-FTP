@@ -1,7 +1,7 @@
 /*
  * PeerY.h
  *
- *      Author: wcs
+ *      
  */
 
 #ifndef PEERY_H_
